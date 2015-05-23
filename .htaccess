@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on 
+
+#WordCamp Brisbane '15
+RewriteRule ^wcbne/400ms/?$ http://peterwilson.cc/~/2671/ [NC,R=301,L]
+RewriteRule ^wcbne/pagespeed/?$ https://developers.google.com/speed/pagespeed/insights/ [NC,R=301,L]
+RewriteRule ^wcbne/thesslquestion/?$ http://www.webpagetest.org/video/compare.php?tests=150416_H0_8D2-r-l:No+SSL,150416_GE_1QQ-r:1-c:0-l:SSL [NC,R=301,L]
+RewriteRule ^wcbne/asyncjs/?$ http://peterwilson.cc/code-samples/async-javascript-wordpress-filter/ [NC,R=301,L]
+RewriteRule ^wcbne/jqueryfooter/?$ http://peterwilson.cc/code-samples/load-jquery-in-the-wordpress-footer/ [NC,R=301,L]
+RewriteRule ^wcbne/loadcss/?$ https://github.com/filamentgroup/loadCSS [NC,R=301,L]
+
+
+# General redirect
+RewriteRule ^(.*)$ http://peterwilson.cc/$1 [R=301,L]
+</IfModule>
