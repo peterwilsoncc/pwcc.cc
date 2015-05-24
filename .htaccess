@@ -8,6 +8,8 @@ RewriteRule ^wcbne/thesslquestion/?$ http://www.webpagetest.org/video/compare.ph
 RewriteRule ^wcbne/asyncjs/?$ http://peterwilson.cc/code-samples/async-javascript-wordpress-filter/ [NC,R=301,L]
 RewriteRule ^wcbne/jqueryfooter/?$ http://peterwilson.cc/code-samples/load-jquery-in-the-wordpress-footer/ [NC,R=301,L]
 RewriteRule ^wcbne/loadcss/?$ https://github.com/filamentgroup/loadCSS [NC,R=301,L]
+RewriteRule ^wcbne/itsreal/?$ https://twitter.com/silkcharm/status/541133960290779136 [NC,R=301,L]
+RewriteRule ^wcbne/fbcss/?$ http://peterwilson.cc/code-samples/a-css-only-facebook-button/ [NC,R=301,L]
 
 # I use this all the time
 RewriteRule ^admin/?$ https://peterwilson.cc/wp/wp-admin/ [NC,R=301,L]
