@@ -12,7 +12,8 @@ RewriteRule ^wcbne/inlinecss/?$ http://peterwilson.cc/code-samples/inline-css-on
 RewriteRule ^wcbne/fbcss/?$ http://peterwilson.cc/code-samples/a-css-only-facebook-button/ [NC,R=301,L]
 RewriteRule ^wcbne/?$ http://peterwilson.cc/wcbne15/ [NC,R=301,L]
 
-
+#Be Responsive March 2016.
+RewriteRule ^brmelb/loadcss/?$ https://github.com/filamentgroup/loadCSS [NC,R=301,L]
 
 # I use this all the time
 RewriteRule ^admin/?$ https://peterwilson.cc/wp/wp-admin/ [NC,R=301,L]
