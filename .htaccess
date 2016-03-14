@@ -15,6 +15,14 @@ RewriteRule ^wcbne/?$ http://peterwilson.cc/wcbne15/ [NC,R=301,L]
 #Be Responsive March 2016.
 RewriteRule ^brmelb/loadcss/?$ https://github.com/filamentgroup/loadCSS [NC,R=301,L]
 
+#Respond 16
+RewriteRule ^respond/loadcss/?$ https://github.com/filamentgroup/loadCSS [NC,R=301,L]
+RewriteRule ^respond/fout/?$ https://github.com/bramstein/fontfaceobserver [NC,R=301,L]
+RewriteRule ^respond/1.6billion/?$ http://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales [NC,R=301,L]
+RewriteRule ^respond/amazon/?$ https://sites.google.com/site/glinden/Home/StanfordDataMining.2006-11-28.ppt [NC,R=301,L]
+RewriteRule ^respond/blocking/?$ http://www.webpagetest.org/video/compare.php?tests=160313_QY_VYC-r-l:Blocked,160313_KV_VCY-r:1-c:0-l:Unblocked [NC,R=301,L]
+
+
 # I use this all the time
 RewriteRule ^admin/?$ https://peterwilson.cc/wp/wp-admin/ [NC,R=301,L]
 
