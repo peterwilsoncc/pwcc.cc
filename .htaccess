@@ -16,6 +16,7 @@ RewriteRule ^wcbne/?$ http://peterwilson.cc/wcbne15/ [NC,R=301,L]
 RewriteRule ^brmelb/loadcss/?$ https://github.com/filamentgroup/loadCSS [NC,R=301,L]
 
 #Respond 16
+RewriteRule ^respond/wait/?$ https://www.youtube.com/watch?v=D6brqiMUdno [NC,R=301,L]
 RewriteRule ^respond/loadcss/?$ https://github.com/filamentgroup/loadCSS [NC,R=301,L]
 RewriteRule ^respond/fout/?$ https://github.com/bramstein/fontfaceobserver [NC,R=301,L]
 RewriteRule ^respond/1.6billion/?$ http://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales [NC,R=301,L]
