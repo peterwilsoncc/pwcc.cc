@@ -31,6 +31,7 @@ RewriteRule ^wceu/jqueryfooter/?$ http://peterwilson.cc/code-samples/load-jquery
 RewriteRule ^wceu/asyncjs/?$ http://peterwilson.cc/code-samples/async-javascript-wordpress-filter/ [NC,R=301,L]
 RewriteRule ^wceu/loadcss/?$ https://github.com/filamentgroup/loadCSS [NC,R=301,L]
 RewriteRule ^wceu/rapidcss/?$ https://peterwilson.cc/code-samples/http2-server-push-http1-compatible-inline-css/ [NC,R=301,L]
+RewriteRule ^wceu/slides/?$ https://speakerdeck.com/peterwilsoncc/wceu-seven-times-faster-a-study-in-frontend-optimization [NC,R=301,L]
 
 
 # I use this all the time
