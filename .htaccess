@@ -33,6 +33,12 @@ RewriteRule ^wceu/loadcss/?$ https://github.com/filamentgroup/loadCSS [NC,R=301,
 RewriteRule ^wceu/rapidcss/?$ https://peterwilson.cc/code-samples/http2-server-push-http1-compatible-inline-css/ [NC,R=301,L]
 RewriteRule ^wceu/slides/?$ https://speakerdeck.com/peterwilsoncc/wceu-seven-times-faster-a-study-in-frontend-optimization [NC,R=301,L]
 
+# GO short domains (event specific is too hard).
+RewriteRule ^go/asyncjs/?$ http://peterwilson.cc/code-samples/async-javascript-wordpress-filter/ [NC,R=301,L]
+RewriteRule ^go/blocking/?$ http://www.webpagetest.org/video/compare.php?tests=160313_QY_VYC-r-l:Blocked,160313_KV_VCY-r:1-c:0-l:Unblocked [NC,R=301,L]
+RewriteRule ^go/jqueryfooter/?$ http://peterwilson.cc/code-samples/load-jquery-in-the-wordpress-footer/ [NC,R=301,L]
+RewriteRule ^go/loadcss/?$ https://github.com/filamentgroup/loadCSS [NC,R=301,L]
+RewriteRule ^go/rapidcss/?$ https://peterwilson.cc/code-samples/http2-server-push-http1-compatible-inline-css/ [NC,R=301,L]
 
 # I use this all the time
 RewriteRule ^admin/?$ https://peterwilson.cc/wp-admin/ [NC,R=301,L]
