@@ -35,7 +35,7 @@ RewriteRule ^wceu/slides/?$ https://speakerdeck.com/peterwilsoncc/wceu-seven-tim
 
 
 # I use this all the time
-RewriteRule ^admin/?$ https://peterwilson.cc/wp/wp-admin/ [NC,R=301,L]
+RewriteRule ^admin/?$ https://peterwilson.cc/wp-admin/ [NC,R=301,L]
 
 # General redirect
 RewriteRule ^(.*)$ http://peterwilson.cc/$1 [R=301,L]
