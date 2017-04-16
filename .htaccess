@@ -2,15 +2,15 @@
 RewriteEngine on
 
 #WordCamp Brisbane '15
-RewriteRule ^wcbne/400ms/?$ http://peterwilson.cc/~/2671/ [NC,R=301,L]
+RewriteRule ^wcbne/400ms/?$ https://peterwilson.cc/~/2671/ [NC,R=301,L]
 RewriteRule ^wcbne/pagespeed/?$ https://developers.google.com/speed/pagespeed/insights/ [NC,R=301,L]
 RewriteRule ^wcbne/thesslquestion/?$ http://www.webpagetest.org/video/compare.php?tests=150416_H0_8D2-r-l:No+SSL,150416_GE_1QQ-r:1-c:0-l:SSL [NC,R=301,L]
-RewriteRule ^wcbne/asyncjs/?$ http://peterwilson.cc/code-samples/async-javascript-wordpress-filter/ [NC,R=301,L]
-RewriteRule ^wcbne/jqueryfooter/?$ http://peterwilson.cc/code-samples/load-jquery-in-the-wordpress-footer/ [NC,R=301,L]
+RewriteRule ^wcbne/asyncjs/?$ https://peterwilson.cc/code-samples/async-javascript-wordpress-filter/ [NC,R=301,L]
+RewriteRule ^wcbne/jqueryfooter/?$ https://peterwilson.cc/code-samples/load-jquery-in-the-wordpress-footer/ [NC,R=301,L]
 RewriteRule ^wcbne/loadcss/?$ https://github.com/filamentgroup/loadCSS [NC,R=301,L]
-RewriteRule ^wcbne/inlinecss/?$ http://peterwilson.cc/code-samples/inline-css-on-first-load-of-a-wordpress-site/ [NC,R=301,L]
-RewriteRule ^wcbne/fbcss/?$ http://peterwilson.cc/code-samples/a-css-only-facebook-button/ [NC,R=301,L]
-RewriteRule ^wcbne/?$ http://peterwilson.cc/wcbne15/ [NC,R=301,L]
+RewriteRule ^wcbne/inlinecss/?$ https://peterwilson.cc/code-samples/inline-css-on-first-load-of-a-wordpress-site/ [NC,R=301,L]
+RewriteRule ^wcbne/fbcss/?$ https://peterwilson.cc/code-samples/a-css-only-facebook-button/ [NC,R=301,L]
+RewriteRule ^wcbne/?$ https://peterwilson.cc/wcbne15/ [NC,R=301,L]
 
 #Be Responsive March 2016.
 RewriteRule ^brmelb/loadcss/?$ https://github.com/filamentgroup/loadCSS [NC,R=301,L]
@@ -27,16 +27,16 @@ RewriteRule ^respond/blocking/?$ http://www.webpagetest.org/video/compare.php?te
 # WordCamp Europe '16
 
 RewriteRule ^wceu/blocking/?$ http://www.webpagetest.org/video/compare.php?tests=160313_QY_VYC-r-l:Blocked,160313_KV_VCY-r:1-c:0-l:Unblocked [NC,R=301,L]
-RewriteRule ^wceu/jqueryfooter/?$ http://peterwilson.cc/code-samples/load-jquery-in-the-wordpress-footer/ [NC,R=301,L]
-RewriteRule ^wceu/asyncjs/?$ http://peterwilson.cc/code-samples/async-javascript-wordpress-filter/ [NC,R=301,L]
+RewriteRule ^wceu/jqueryfooter/?$ https://peterwilson.cc/code-samples/load-jquery-in-the-wordpress-footer/ [NC,R=301,L]
+RewriteRule ^wceu/asyncjs/?$ https://peterwilson.cc/code-samples/async-javascript-wordpress-filter/ [NC,R=301,L]
 RewriteRule ^wceu/loadcss/?$ https://github.com/filamentgroup/loadCSS [NC,R=301,L]
 RewriteRule ^wceu/rapidcss/?$ https://peterwilson.cc/code-samples/http2-server-push-http1-compatible-inline-css/ [NC,R=301,L]
 RewriteRule ^wceu/slides/?$ https://speakerdeck.com/peterwilsoncc/wceu-seven-times-faster-a-study-in-frontend-optimization [NC,R=301,L]
 
 # GO short domains (event specific is too hard).
-RewriteRule ^go/asyncjs/?$ http://peterwilson.cc/code-samples/async-javascript-wordpress-filter/ [NC,R=301,L]
+RewriteRule ^go/asyncjs/?$ https://peterwilson.cc/code-samples/async-javascript-wordpress-filter/ [NC,R=301,L]
 RewriteRule ^go/blocking/?$ http://www.webpagetest.org/video/compare.php?tests=160313_QY_VYC-r-l:Blocked,160313_KV_VCY-r:1-c:0-l:Unblocked [NC,R=301,L]
-RewriteRule ^go/jqueryfooter/?$ http://peterwilson.cc/code-samples/load-jquery-in-the-wordpress-footer/ [NC,R=301,L]
+RewriteRule ^go/jqueryfooter/?$ https://peterwilson.cc/code-samples/load-jquery-in-the-wordpress-footer/ [NC,R=301,L]
 RewriteRule ^go/loadcss/?$ https://github.com/filamentgroup/loadCSS [NC,R=301,L]
 RewriteRule ^go/rapidcss/?$ https://peterwilson.cc/code-samples/http2-server-push-http1-compatible-inline-css/ [NC,R=301,L]
 
@@ -44,5 +44,5 @@ RewriteRule ^go/rapidcss/?$ https://peterwilson.cc/code-samples/http2-server-pus
 RewriteRule ^admin/?$ https://peterwilson.cc/wp-admin/ [NC,R=301,L]
 
 # General redirect
-RewriteRule ^(.*)$ http://peterwilson.cc/$1 [R=301,L]
+RewriteRule ^(.*)$ https://peterwilson.cc/$1 [R=301,L]
 </IfModule>
