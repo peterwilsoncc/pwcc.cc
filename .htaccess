@@ -42,6 +42,7 @@ RewriteRule ^go/fout/?$ https://github.com/bramstein/fontfaceobserver [NC,R=301,
 RewriteRule ^go/jqueryfooter/?$ https://peterwilson.cc/code-samples/load-jquery-in-the-wordpress-footer/ [NC,R=301,L]
 RewriteRule ^go/loadcss/?$ https://github.com/filamentgroup/loadCSS [NC,R=301,L]
 RewriteRule ^go/loop2018/?$ https://peterwilson.cc/~/4452/ [NC,R=301,L]
+RewriteRule ^go/speeddemon/?$ https://medium.com/dev-channel/introducing-speed-demon-a36d95dd0174 [NC,R=301,L]
 RewriteRule ^go/rapidcss/?$ https://peterwilson.cc/code-samples/http2-server-push-http1-compatible-inline-css/ [NC,R=301,L]
 RewriteRule ^go/wait/?$ https://www.youtube.com/watch?v=D6brqiMUdno [NC,R=301,L]
 RewriteRule ^go/yw17slides/?$ https://peterwilson.cc/~/4039/ [NC,R=301,L]
