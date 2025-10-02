@@ -25,7 +25,6 @@ RewriteRule ^respond/amazon/?$ https://sites.google.com/site/glinden/Home/Stanfo
 RewriteRule ^respond/blocking/?$ http://www.webpagetest.org/video/compare.php?tests=160313_QY_VYC-r-l:Blocked,160313_KV_VCY-r:1-c:0-l:Unblocked [NC,R=301,L]
 
 # WordCamp Europe '16
-
 RewriteRule ^wceu/blocking/?$ http://www.webpagetest.org/video/compare.php?tests=160313_QY_VYC-r-l:Blocked,160313_KV_VCY-r:1-c:0-l:Unblocked [NC,R=301,L]
 RewriteRule ^wceu/jqueryfooter/?$ https://peterwilson.cc/code-samples/load-jquery-in-the-wordpress-footer/ [NC,R=301,L]
 RewriteRule ^wceu/asyncjs/?$ https://peterwilson.cc/code-samples/async-javascript-wordpress-filter/ [NC,R=301,L]
